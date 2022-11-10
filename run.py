@@ -12,9 +12,7 @@ except:
 os.system('git pull')
 import requests
 bit = platform.architecture()[0]
-if bit == '64bit':
-    import hama
-    hama.o()
+
 elif bit == '32bit':
     import hama
     hama.o()
